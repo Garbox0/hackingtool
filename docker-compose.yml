@@ -6,6 +6,8 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - D:\Devops-challenges\Challenge-1\hackingtool:/root/hackingtool
+      - D:\Devops Challenges\Challenge 1\hackingtool:/root/hackingtool
     ports:
       - 22:22
+    command: ["2"]
+
